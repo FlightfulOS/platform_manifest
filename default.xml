@@ -7,6 +7,9 @@
   <remote  name="grapheneos-gitlab"
            fetch="https://gitlab.com/grapheneos/"
            revision="refs/heads/15" />
+  <remote  name="flightfulos"
+           fetch="https://github.com/FlightfulOS/"
+           revision="refs/heads/15" />
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
@@ -141,7 +144,7 @@
   <project path="external/apache-velocity-engine" name="platform/external/apache-velocity-engine" groups="pdk" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" />
   <project path="external/AppCompatConfig" name="platform_external_AppCompatConfig" groups="pdk-fs" remote="grapheneos" clone-depth="1" />
-  <project path="external/AppStore" name="platform_external_AppStore" remote="grapheneos" clone-depth="1" />
+  <project path="external/AppStore" name="platform_external_AppStore" remote="flightfulos" clone-depth="1" />
   <project path="external/arm-neon-tests" name="platform/external/arm-neon-tests" groups="vendor" />
   <project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" groups="pdk" />
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" groups="pdk" />
