@@ -12,7 +12,7 @@
            revision="refs/heads/15" />
   <remote  name="flightfulos-testing"
            fetch="https://github.com/FlightfulOS/"
-           revision="refs/heads/15" />
+           revision="refs/heads/15-testing" />
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
