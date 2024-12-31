@@ -10,6 +10,9 @@
   <remote  name="flightfulos"
            fetch="https://github.com/FlightfulOS/"
            revision="refs/heads/15" />
+  <remote  name="flightfulos-testing"
+           fetch="https://github.com/FlightfulOS/"
+           revision="refs/heads/15" />
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
@@ -37,7 +40,7 @@
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" />
   <project path="build/release" name="platform_build_release" groups="pdk,tradefed" remote="grapheneos" />
-  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed" remote="grapheneos" >
+  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed" remote="grapheneos-testing" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
